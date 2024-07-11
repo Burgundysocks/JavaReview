@@ -8,6 +8,7 @@ public class Quiz {
         String a = sc.nextLine();
 
         System.out.println(a.substring(0,8));
+        System.out.println(a.substring(0,a.indexOf("-")+2));
 
     }
 }
